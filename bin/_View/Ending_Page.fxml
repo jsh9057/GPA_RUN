@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane fx:id="Endingpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Ending.Override_Ending">
+	<children>
+		<Pane fx:id="Endingpane1" prefHeight="500.0" prefWidth="800.0">
+			<children>
+				<ImageView fx:id="Background" fitHeight="500.0" fitWidth="800.0" pickOnBounds="true">
+					<image>
+						<Image url="@../ImageFile/Background_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Character_p" fitHeight="180.0" fitWidth="147.0" layoutX="301.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/ending_p.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="248.0" fitWidth="303.0" pickOnBounds="true">
+					<image>
+						<Image url="@../ImageFile/ending1.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="A_plus" fitHeight="534.0" fitWidth="435.0" layoutX="800.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/A+.png" />
+					</image>
+				</ImageView>
+				<Button fx:id="Yes_btn" layoutX="116.0" layoutY="207.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="Button">
+					<effect>
+						<ImageInput>
+							<source>
+								<Image url="@../ImageFile/Yes2_btn.png" />
+							</source>
+						</ImageInput>
+					</effect>
+				</Button>
+			</children>
+		</Pane>
+		<Pane fx:id="EndingPane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" visible="false">
+			<children>
+				<ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/ending.png" />
+					</image>
+				</ImageView>
+            <Button fx:id="Yes_btn2" layoutX="672.0" layoutY="431.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="Button">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="@../ImageFile/Yes2_btn.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+			</children>
+		</Pane>
+	</children>
+</Pane>

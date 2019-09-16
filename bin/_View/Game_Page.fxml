@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Game.Override_Game">
+	<children>
+		<Pane fx:id="Game_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0">
+			<children>
+				<ImageView fx:id="Game_Background1_ImageView" fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/Background_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_Background2_ImageView" fitHeight="500.0" fitWidth="800.0" layoutX="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/Background_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_Background3_ImageView" fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/BackGround_Front_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_GageBar_ImageView" fitHeight="23.0" fitWidth="50.0" layoutX="80.0" layoutY="68.0" pickOnBounds="true">
+					<image>
+						<Image url="@../ImageFile/Gage_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_Background4_ImageView" fitHeight="500.0" fitWidth="800.0" layoutX="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/BackGround_Front_Image.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_UI_ImageView" fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/UI.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="Game_Maincharacter_ImageView" fitHeight="292.0" fitWidth="314.0" layoutX="59.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ImageFile/Character_Run_Image.png" />
+					</image>
+				</ImageView>
+				<Label fx:id="Game_Score_Label" layoutX="680.0" layoutY="49.0" text="0">
+               <font>
+                  <Font size="30.0" />
+               </font></Label>
+            <ImageView fx:id="Pause_Image" fitHeight="500.0" fitWidth="896.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ImageFile/Pause.png" />
+               </image>
+            </ImageView>
+				<Pane fx:id="Game_Ranking_Pane" layoutX="192.0" layoutY="-4.0" prefHeight="508.0" prefWidth="417.0">
+					<children>
+						<ImageView fitHeight="508.0" fitWidth="417.0" pickOnBounds="true">
+							<image>
+								<Image url="@../ImageFile/Ranking_Image.png" />
+							</image>
+						</ImageView>
+						<Label fx:id="Rank_name1_Label" layoutX="102.0" layoutY="134.0" prefHeight="42.0" prefWidth="83.0" text="Label" textFill="#ffee00" />
+						<Label fx:id="Rank_name2_Label" layoutX="102.0" layoutY="211.0" prefHeight="42.0" prefWidth="83.0" text="Label" textFill="#cdcdcd" />
+						<Label fx:id="Rank_name3_Label" layoutX="102.0" layoutY="281.0" prefHeight="42.0" prefWidth="83.0" text="Label" textFill="#cdbbb0" />
+						<Label fx:id="Rank_Myscore_Label" layoutX="178.0" layoutY="413.0" prefHeight="52.0" prefWidth="129.0" text="Label" textFill="#ffb9b9" />
+						<Label fx:id="Rank_score1_Label" layoutX="296.0" layoutY="134.0" prefHeight="42.0" prefWidth="50.0" text="Label" textFill="#ffee00" />
+						<Label fx:id="Rank_score2_Label" layoutX="296.0" layoutY="211.0" prefHeight="42.0" prefWidth="50.0" text="Label" textFill="#cdcdcd" />
+						<Label fx:id="Rank_score3_Label" layoutX="296.0" layoutY="281.0" prefHeight="42.0" prefWidth="50.0" text="Label" textFill="#cdbbb0" />
+						<Button fx:id="Game_Ranking_btn" layoutX="292.0" mnemonicParsing="false" prefHeight="111.0" prefWidth="112.0" text="X">
+							<effect>
+								<ImageInput>
+									<source>
+										<Image url="@../ImageFile/X.png" />
+									</source>
+								</ImageInput>
+							</effect>
+						</Button>
+					</children>
+				</Pane>
+			</children>
+		</Pane>
+	</children>
+</StackPane>

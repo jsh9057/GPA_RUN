@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane fx:id="Ending_Pane" maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
+	prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="Controller_Ending_Credit.Override_Ending_Credit">
+	<children>
+		<ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true"
+			preserveRatio="true">
+			<image>
+				<Image url="@../ImageFile/ending_back.png" />
+			</image>
+		</ImageView>
+		<ImageView fx:id="Ending_Credit" fitHeight="1500.0"
+			fitWidth="564.0" layoutX="236.0" layoutY="450.0" pickOnBounds="true">
+			<image>
+				<Image url="@../ImageFile/ending_credit.png" />
+			</image>
+		</ImageView>
+		<ImageView fx:id="Run_Maincharacter" fitHeight="150.0"
+			fitWidth="200.0" layoutX="23.0" layoutY="160.0" pickOnBounds="true"
+			preserveRatio="true">
+			<image>
+				<Image url="@../ImageFile/Character_Run_Image.png" />
+			</image>
+		</ImageView>
+	</children>
+</Pane>

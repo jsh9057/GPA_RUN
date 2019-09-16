@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane fx:id="Login_stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Login.Override_Login">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../ImageFile/Login_Page_Image.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="Login_pane" layoutX="510.0" layoutY="170.0" prefHeight="300.0" prefWidth="267.0">
+               <children>
+                  <ImageView fitHeight="315.0" fitWidth="281.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../ImageFile/login_Image.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="Login_signUp_Btn" layoutX="150.0" layoutY="261.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="119.0" text="회원가입">
+                     <effect>
+                        <ImageInput>
+                           <source>
+                              <Image url="@../ImageFile/SignUP_Image.png" />
+                           </source>
+                        </ImageInput>
+                     </effect></Button>
+                  <TextField fx:id="Login_ID_Textfield" layoutX="70.0" layoutY="89.0" promptText="아이디" />
+                  <PasswordField fx:id="Login_PW_Textfield" layoutX="70.0" layoutY="142.0" promptText="비밀번호" />
+                  <Button fx:id="Login_login_Btn" layoutX="11.0" layoutY="261.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="119.0" text="로그인">
+                     <effect>
+                        <ImageInput>
+                           <source>
+                              <Image url="@../ImageFile/GameStart_Image.png" />
+                           </source>
+                        </ImageInput>
+                     </effect></Button>
+                  <Label layoutX="32.0" layoutY="93.0" text="ID:" />
+                  <Label layoutX="35.0" layoutY="146.0" text="PW:" />
+                  <Label fx:id="Login_Overlap_Label" layoutX="70.0" layoutY="192.0" prefHeight="19.0" prefWidth="172.0" text="아이디 또는 비밀번호를 " />
+               </children>
+            </Pane>
+            <Pane fx:id="signUP_pane" layoutX="485.0" layoutY="116.0" prefHeight="361.0" prefWidth="292.0" visible="false">
+               <children>
+                  <ImageView fitHeight="435.0" fitWidth="305.0" layoutX="-2.0" layoutY="-69.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../ImageFile/regist_Image.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="21.0" layoutY="48.0" text="ID:" />
+                  <Label layoutX="18.0" layoutY="88.0" text="PW:" />
+                  <Label layoutX="14.0" layoutY="123.0" text="이름:" />
+                  <Label layoutX="14.0" layoutY="158.0" text="학번:" />
+                  <TextField fx:id="signUP_ID_Textfield" layoutX="54.0" layoutY="44.0" promptText="아이디">
+                     <font>
+                        <Font name="Bauhaus 93" size="15.0" />
+                     </font></TextField>
+                  <PasswordField fx:id="signUP_PW_Textfield" layoutX="54.0" layoutY="84.0" promptText="비밀번호" />
+                  <TextField fx:id="signUP_Name_Textfield" layoutX="54.0" layoutY="119.0" promptText="이름" />
+                  <TextField fx:id="signUP_studentNum_Textfield" layoutX="54.0" layoutY="154.0" promptText="학번" />
+                  <CheckBox fx:id="signUP_Agree_CheckBox" layoutX="48.0" layoutY="231.0" mnemonicParsing="false" text="회원가입에 동의하십니까?" />
+                  <Button id="test" fx:id="signUP_signUp_Btn" layoutX="31.0" layoutY="299.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="119.0" text="회원가입">
+                     <effect>
+                        <ImageInput>
+                           <source>
+                              <Image url="@../ImageFile/SignUP_Image.png" />
+                           </source>
+                        </ImageInput>
+                     </effect></Button>
+                  <Button fx:id="signUP_Cancle_Btn" layoutX="159.0" layoutY="299.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="119.0" text="취소">
+                     <effect>
+                        <ImageInput>
+                           <source>
+                              <Image url="@../ImageFile/Cancel_Image.png" />
+                           </source>
+                        </ImageInput>
+                     </effect></Button>
+                  <Button fx:id="signUP_Overlap_Btn" layoutX="191.0" layoutY="44.0" mnemonicParsing="false" text="중복확인" />
+                  <Label fx:id="signUP_Overlap_Label" layoutX="54.0" layoutY="14.0" text="중복확인" />
+               </children>
+            </Pane>
+         </children></Pane>
+   </children>
+</StackPane>
