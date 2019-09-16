@@ -5,6 +5,15 @@ java project
 
 - GPA_RUN ( Grade Point Average RUN)
 
+1. 아이디어 벤치마킹 
+- 쿠키런, 대학생
+
+2. 기본 게임방법
+- 메인 케릭터가 A+젤리를 먹으며 점수를 올린다.
+- 메인 케릭터가 F장애물에 부딪치면 점수가 깎인다.
+- 각 BustTime게이지를 다 채웠을 경우  BustTime 에 돌입하게된다.
+- BustTime 동안에는 F장애물과 부딪쳐도 점수가 깎이지 않는다.
+
 -실행화면-
 
 ![image](https://user-images.githubusercontent.com/31503178/64944648-cc4a3a00-d8a9-11e9-8557-ad3e459a31ea.png)
