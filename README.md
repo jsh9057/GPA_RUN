@@ -55,6 +55,5 @@ Model_Map의 Stage 배열을 읽어 들인 뒤, 각 Stage배열의 패턴에 맞
 ![image](https://user-images.githubusercontent.com/31503178/64944682-dcfab000-d8a9-11e9-9b73-e32ebf0f54cd.png)
 ![image](https://user-images.githubusercontent.com/31503178/64944688-dff5a080-d8a9-11e9-945f-a820a4e1f646.png)
 ![image](https://user-images.githubusercontent.com/31503178/64944813-277c2c80-d8aa-11e9-8c30-43d09be38fda.png)
-![image](https://user-images.githubusercontent.com/31503178/64944822-2ba84a00-d8aa-11e9-9985-71847516f30b.png)
 ![image](https://user-images.githubusercontent.com/31503178/64944829-306cfe00-d8aa-11e9-9591-19832cd2926d.png)
 
