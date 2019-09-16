@@ -14,6 +14,14 @@ java project
 - 각 BustTime게이지를 다 채웠을 경우  BustTime 에 돌입하게된다.
 - BustTime 동안에는 F장애물과 부딪쳐도 점수가 깎이지 않는다.
 
+3. 주요 알고리즘
+![image](https://user-images.githubusercontent.com/31503178/64945895-9ce8fc80-d8ac-11e9-9aca-13b22b40b717.png)
+![image](https://user-images.githubusercontent.com/31503178/64945896-9eb2c000-d8ac-11e9-9718-942ce33432f4.png)
+![image](https://user-images.githubusercontent.com/31503178/64945904-a1adb080-d8ac-11e9-8eb5-ca3e455950be.png)
+▶ Splite_Image()
+ Splite_Image는 여러 모션이 담겨있는 하나의 그림을 여러 개로 쪼개어 각각의 부분만을 출력하여 연속적으로 보여주는 방식의 알고리즘이다. 깜박임 현상을 최대한 줄이기 위해 사용.
+
+
 -실행화면-
 
 ![image](https://user-images.githubusercontent.com/31503178/64944648-cc4a3a00-d8a9-11e9-8557-ad3e459a31ea.png)
